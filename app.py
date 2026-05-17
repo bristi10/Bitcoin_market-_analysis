@@ -52,6 +52,6 @@ try:
         st.plotly_chart(fig_bar, use_container_width=True)
 
 except FileNotFoundError as e:
-    st.error(f"⚠️ Error: Could not find {e.filename}. Please make sure the CSV files are in the 'bitcoin' folder.")
+    st.error(f" Error: Could not find {e.filename}. Please make sure the CSV files are in the 'bitcoin' folder.")
 except Exception as e:
-    st.error(f"⚠️ An error occurred: {e}")
+    st.error(f" An error occurred: {e}")
